@@ -15,7 +15,6 @@ export default function Program() {
       <HomeHero/>
       <GallaryPageMain />
       <LearningSchedule/>
-      <AudioPlayer />
     </Wrapper>
   )
 }
