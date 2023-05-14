@@ -44,8 +44,9 @@ const HomeHero = () => {
                                     alt="img not found"
                                 />
                             </div>
-                            {/*<div className="bd-hero-content">
-                                
+                            <div className="bd-hero-content">
+                                {/*<span className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">SCENlab
+                                    Program</span>*/}
                                 <h1 className="bd-hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                         <Image
                                             src={heroImg}
@@ -54,9 +55,14 @@ const HomeHero = () => {
                                         />
                                 </h1>
                                 <div className="bd-hero-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                    
+                                    {/*<Link href="/programs" className="bd-btn">
+                                        <span className="bd-btn-inner">
+                                            <span className="bd-btn-normal">Posetite Nas</span>
+                                            <span className="bd-btn-hover">Posetite Nas</span>
+                                        </span>
+                                    </Link>*/}
                                 </div>
-                            </div>*/}
+                            </div>
                         </div>
                         <div className="col-lg-5 col-md-6">
                             <div id="scene">
