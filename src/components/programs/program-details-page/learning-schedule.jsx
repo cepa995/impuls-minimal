@@ -22,7 +22,7 @@ const LearningSchedule = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <AudioPlayer />
+                    <AudioPlayer fileName="Naziv Datoteke"/>
                   </tr>
                 </tbody>
               </table>

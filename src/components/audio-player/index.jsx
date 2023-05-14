@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-export const AudioPlayer = () => {
+export const AudioPlayer = ({fileName, filePath}) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -43,7 +43,7 @@ export const AudioPlayer = () => {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
       <audio ref={audioRef} src="/file_example_MP3_700KB.mp3" />
-      <p style={{ whiteSpace: "nowrap", margin: 0 }}>Ime fail-a</p>
+      <p style={{ whiteSpace: "nowrap", margin: 0 }}>{fileName}</p>
       <button onClick={togglePlay}>
         {isPlaying ? (
           <img src="/pause-button-svgrepo-com.svg" alt="Pause" />
