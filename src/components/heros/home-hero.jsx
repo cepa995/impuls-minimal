@@ -37,7 +37,7 @@ const HomeHero = () => {
                     </div>
                     <div className="row align-items-center">
                         <div className="col-lg-12 col-md-6">
-                            <div className="mobile-gif">
+                            <div className="bd-hero-gif">
                                 <Image
                                     src={gif}
                                     style={{ paddingLeft: "15px", width: "100%", height: "100%" }}

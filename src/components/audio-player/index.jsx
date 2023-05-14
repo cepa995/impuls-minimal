@@ -42,7 +42,7 @@ export const AudioPlayer = ({filePath}) => {
 
   return (
     <div style={{ display: "flex", alignItems: "center", gap: "20px", flexDirection: "column"}}>
-      <audio ref={audioRef} src="/file_example_MP3_700KB.mp3" />
+      <audio ref={audioRef} src={filePath} />
       <p style={{ whiteSpace: "nowrap", margin: 0 }}></p>
       
       <div

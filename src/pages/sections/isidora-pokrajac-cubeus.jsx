@@ -17,7 +17,7 @@ export default function Program() {
     <Wrapper>
       <SEO pageTitle={'Šetnja'} />
       <HomeHero/>
-      <LearningSchedule audioFileName={"Cubeus"}/>
+      <LearningSchedule audioPath={"/assets/img/gallery/audio_cubeus_isidora_pokrajac.mp3"} audioFileName={"Cubeus"}/>
       <GallaryPageMain gallary_data={[
         {
             id: 1,

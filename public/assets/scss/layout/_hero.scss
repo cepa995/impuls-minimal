@@ -325,6 +325,19 @@
         }
     }
 
+    &-gif {
+        display: none;
+        @media #{$xl,$lg} {
+            display: none;
+        }
+        @media #{$md} {
+            display: none;
+        }
+        @media #{$sm,$xs} {
+            display: block;
+            padding-bottom: 60px;
+        }
+    }
     &-content {
         margin-inline-start: -30px;
         position: relative;
@@ -350,7 +363,6 @@
                 padding-bottom: 0px;
             }
         }
-
         span {
             font-size: 23px;
             font-weight: var(--bd-fw-sbold);

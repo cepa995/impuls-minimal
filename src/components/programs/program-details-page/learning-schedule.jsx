@@ -1,7 +1,7 @@
 import { AudioPlayer } from "@components/audio-player";
 import React from "react";
 
-const LearningSchedule = ({audioFileName}) => {
+const LearningSchedule = ({audioPath, audioFileName}) => {
   return (
     <section style={{"paddingTop": "120px"}} className="bd-routine-area pb-70">
       <div className="container">
@@ -22,7 +22,7 @@ const LearningSchedule = ({audioFileName}) => {
                 </thead>
                 <tbody>
                   <tr>
-                    <AudioPlayer/>
+                    <AudioPlayer filePath={audioPath}/>
                   </tr>
                 </tbody>
               </table>

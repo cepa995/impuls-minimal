@@ -10,15 +10,14 @@ const ErrorPageMain = () => {
                 <div className="row align-items-center">
                     <div className="col-xl-6">
                         <div className="bd-section-title-wrapper mb-45">
-                            <h2 className="bd-section-title mb-0">OOPS! PAGE NOT FOUND!</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit
-                                urna. Pellentesque sit amet sapien.</p>
+                            <h2 className="bd-section-title mb-0">OOPS! STRANICA NIJE PRONADJENA!</h2>
+                            <p>Molimo Vas da se obratite nadleznom licu za dalja uputstva.</p>
                         </div>
                         <div className="bd-error-btn">
                             <Link href="/" className='bd-btn'>
                                 <span className="bd-btn-inner">
-                                    <span className="bd-btn-normal d-flex align-items-center"><i className="flaticon-hut"></i>Back To Home</span>
-                                    <span className="bd-btn-hover d-flex align-items-center"><i className="flaticon-hut"></i>Back To Home</span>
+                                    <span className="bd-btn-normal d-flex align-items-center"><i className="flaticon-hut"></i>Vratite se nazad</span>
+                                    <span className="bd-btn-hover d-flex align-items-center"><i className="flaticon-hut"></i>Vratite se nazad</span>
                                 </span>
                             </Link>
                         </div>
