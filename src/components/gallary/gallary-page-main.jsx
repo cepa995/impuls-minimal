@@ -20,7 +20,6 @@ const GallaryPageMain = () => {
     return (
         <>
         
-        
         <div className="bd-gallery-area p-relative pt-120 pb-95 p-relative">
             <div className="container">
                 <div className="row">

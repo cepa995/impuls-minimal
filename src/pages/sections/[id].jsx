@@ -13,8 +13,8 @@ export default function Program() {
     <Wrapper>
       <SEO pageTitle={'Šetnja'} />
       <HomeHero/>
+      <LearningSchedule audioFileName={"Naziv Datoteke"}/>
       <GallaryPageMain />
-      <LearningSchedule/>
     </Wrapper>
   )
 }

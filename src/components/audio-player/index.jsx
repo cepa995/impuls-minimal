@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 
-export const AudioPlayer = ({fileName, filePath}) => {
+export const AudioPlayer = ({filePath}) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -41,16 +41,10 @@ export const AudioPlayer = ({fileName, filePath}) => {
   };
 
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+    <div style={{ display: "flex", alignItems: "center", gap: "20px", flexDirection: "column"}}>
       <audio ref={audioRef} src="/file_example_MP3_700KB.mp3" />
-      <p style={{ whiteSpace: "nowrap", margin: 0 }}>{fileName}</p>
-      <button onClick={togglePlay}>
-        {isPlaying ? (
-          <img src="/pause-button-svgrepo-com.svg" alt="Pause" />
-        ) : (
-          <img src="/play-button-svgrepo-com.svg" alt="Play" />
-        )}
-      </button>
+      <p style={{ whiteSpace: "nowrap", margin: 0 }}></p>
+      
       <div
         style={{
           width: "100%",
@@ -73,6 +67,13 @@ export const AudioPlayer = ({fileName, filePath}) => {
           }}
         />
       </div>
+      <button onClick={togglePlay}>
+        {isPlaying ? (
+          <img src="/pause-button-svgrepo-com.svg" alt="Pause" />
+        ) : (
+          <img src="/play-button-svgrepo-com.svg" alt="Play" />
+        )}
+      </button>
       <p
         style={{
           whiteSpace: "nowrap",

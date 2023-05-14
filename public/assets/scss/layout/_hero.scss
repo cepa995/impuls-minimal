@@ -340,6 +340,8 @@
         }
 
         @media #{$sm,$xs} {
+            display: none;
+            
             padding-bottom: 60px;
         }
 

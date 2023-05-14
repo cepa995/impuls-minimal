@@ -1,7 +1,7 @@
 import React from 'react';
 import shape1 from "@assets/img/shape/curved-line-2.png";
 import heroImg from "@assets/img/hero/home-banner.png";
-import gif from "@assets/img/hero/impuls-reversed-cut.gif";
+import gif from "@assets/img/hero/impuls.gif";
 import shape2 from "@assets/img/shape/home-3-shape-1.png";
 import shape3 from "@assets/img/shape/home-3-shape-2.png";
 import shape4 from "@assets/img/shape/home-3-shape-3.png";
@@ -37,9 +37,15 @@ const HomeHero = () => {
                     </div>
                     <div className="row align-items-center">
                         <div className="col-lg-12 col-md-6">
-                            <div className="bd-hero-content">
-                                {/*<span className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">SCENlab
-                                    Program</span>*/}
+                            <div className="mobile-gif">
+                                <Image
+                                    src={gif}
+                                    style={{ paddingLeft: "15px", width: "100%", height: "100%" }}
+                                    alt="img not found"
+                                />
+                            </div>
+                            {/*<div className="bd-hero-content">
+                                
                                 <h1 className="bd-hero-title wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
                                         <Image
                                             src={heroImg}
@@ -48,14 +54,9 @@ const HomeHero = () => {
                                         />
                                 </h1>
                                 <div className="bd-hero-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
-                                    {/*<Link href="/programs" className="bd-btn">
-                                        <span className="bd-btn-inner">
-                                            <span className="bd-btn-normal">Posetite Nas</span>
-                                            <span className="bd-btn-hover">Posetite Nas</span>
-                                        </span>
-                                    </Link>*/}
+                                    
                                 </div>
-                            </div>
+                            </div>*/}
                         </div>
                         <div className="col-lg-5 col-md-6">
                             <div id="scene">

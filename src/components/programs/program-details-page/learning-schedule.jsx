@@ -1,9 +1,9 @@
 import { AudioPlayer } from "@components/audio-player";
 import React from "react";
 
-const LearningSchedule = () => {
+const LearningSchedule = ({audioFileName}) => {
   return (
-    <section className="bd-routine-area pb-70">
+    <section style={{"paddingTop": "120px"}} className="bd-routine-area pb-70">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -14,15 +14,15 @@ const LearningSchedule = () => {
             >
               <table className="table table-striped">
                 <thead>
-                  <tr>
-                    <span style={{ display: "grid", justifyContent: "center" }}>
-                      <th scope="col">Audio</th>
+                  <tr style={{ textAlign: "center" }}>
+                    <span>
+                      <th style={{ padding: "20px 0"}} scope="col"> {audioFileName}</th>
                     </span>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <AudioPlayer fileName="Naziv Datoteke"/>
+                    <AudioPlayer/>
                   </tr>
                 </tbody>
               </table>
