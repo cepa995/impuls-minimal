@@ -9,7 +9,7 @@ import HeaderFour from "@layout/headers/headerFour";
 import LearningSchedule from '@components/programs/program-details-page/learning-schedule';
 
 import img_1 from "@assets/img/gallery/Radionica_1_SM.jpg"
-import img_2 from "@assets/img/gallery/Radionica_2_SM.jpg"
+import img_2 from "@assets/img/gallery/Radionica_2_SM.png"
 
 export default function Program() {
   return (
