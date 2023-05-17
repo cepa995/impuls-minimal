@@ -20,7 +20,7 @@ export default function Program() {
       
         <div className="bd-gallery-area p-relative pt-120 pb-95 p-relative">
             <div className="container">
-                <div style={{marginTop: "-250px"}} className="row">
+                <div style={{marginTop: "-200px"}} className="row">
                     <iframe
                     src="https://player.vimeo.com/video/827747410?h=c0ad8977f2&title=0&sidedock=0&controls=1&autoplay=1&loop=1&muted=1"
                     width="100%"
