@@ -5,7 +5,7 @@ const nextConfig = {
     return [
       {
         source: "/",
-        destination: "/sections/isidora-pokrajac-cubeus",
+        destination: "/sections/1",
         permanent: false,
       },
     ]
