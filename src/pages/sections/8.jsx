@@ -18,7 +18,7 @@ export default function Program() {
     <Wrapper>
       <SEO pageTitle={'Šetnja'} />
       <HomeHero/>
-      <LearningSchedule audioPath={"/assets/img/gallery/1_audio___paviljon_anđela_kurevija.mp3"} audioFileName={"Paviljon"}/>
+      <LearningSchedule audioPath={"/assets/img/gallery/audio___paviljon_doroteja_jonov.mp3"} audioFileName={"Paviljon"}/>
       <GallaryPageMain gallary_data={[
   {
     id: 1,
