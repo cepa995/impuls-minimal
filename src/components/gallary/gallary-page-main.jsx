@@ -21,7 +21,7 @@ const GallaryPageMain = ({gallary_data}) => {
         <div className="bd-gallery-area p-relative pt-120 pb-95 p-relative">
             <div className="container">
                 <div className="row">
-                        {gallary_data?.slice(0, 11).map((item, index) => (
+                        {gallary_data?.slice(0, 20).map((item, index) => (
                             <div className={item.wrap} key={index}>
                                 {!item.inners && <div className="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                     <div className="bd-gallery-thumb-wrapper">
