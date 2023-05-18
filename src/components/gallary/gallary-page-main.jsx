@@ -25,6 +25,7 @@ const GallaryPageMain = ({gallary_data}) => {
                             <div className={item.wrap} key={index}>
                                 {!item.inners && <div className="bd-gallery mb-25 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                                     <div className="bd-gallery-thumb-wrapper">
+                                        <p>{item.name}</p>
                                         <div className="bd-gallery-thumb">
                                             <Image src={item.img} style={{ width: "100%", height: "100%" }} alt="img not found" />
                                         </div>
