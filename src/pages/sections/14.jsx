@@ -28,6 +28,8 @@ import img_15 from "@assets/img/gallery/kostim__Lena_Jankov,_foto__Maja_Bogdanov
 import img_16 from "@assets/img/gallery/kostim__Lena_Jankov,_foto__Maja_Bogdanović_1.jpg"
 import img_17 from "@assets/img/gallery/kostim__tanja_stefanović_foto__jelena_kajtes_2.jpg"
 import img_18 from "@assets/img/gallery/kostim__tanja_stefanović_foto__jelena_kajtes_3.jpg"
+import img_19 from "@assets/img/gallery/kostim__tanja_stefanović_foto__jelena_kajtes_4.jpg"
+import img_20 from "@assets/img/gallery/kostim__tanja_stefanović_foto__jelena_kajtes_5.jpg"
 
 export default function Program() {
   return (
@@ -141,6 +143,18 @@ export default function Program() {
   {
     id: 18,
     img: img_18,
+    name: "kostim: Tanja Stefanović, foto: Jelena Kajtes",
+    icon: 'flaticon-eye',
+  },
+  {
+    id: 19,
+    img: img_19,
+    name: "kostim: Tanja Stefanović, foto: Jelena Kajtes",
+    icon: 'flaticon-eye',
+  },
+  {
+    id: 20,
+    img: img_20,
     name: "kostim: Tanja Stefanović, foto: Jelena Kajtes",
     icon: 'flaticon-eye',
   },

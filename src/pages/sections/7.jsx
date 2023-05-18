@@ -12,6 +12,7 @@ import img_1 from "@assets/img/gallery/Anđela_Kurevija_Paviljon_za_Impuls1__1_.
 import img_2 from "@assets/img/gallery/Anđela_Kurevija_Paviljon_za_Impuls1__1_.png"
 import img_3 from "@assets/img/gallery/Anđela_Kurevija_Paviljon_za_Impuls1__2_.jpg"
 import img_4 from "@assets/img/gallery/Anđela_Kurevija_Paviljon_za_Impuls1__3_.jpg"
+import img_5 from "@assets/img/gallery/Anđela_Kurevija_Paviljon_za_Impuls1__4_.jpg"
 
 export default function Program() {
   return (
@@ -38,6 +39,11 @@ export default function Program() {
   {
     id: 4,
     img: img_4,
+    icon: 'flaticon-eye',
+  },
+  {
+    id: 5,
+    img: img_5,
     icon: 'flaticon-eye',
   }
 ]}/>

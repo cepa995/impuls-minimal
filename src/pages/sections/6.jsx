@@ -12,6 +12,7 @@ import img_1 from "@assets/img/gallery/NIVOI_nina_bogdanović_1.jpeg"
 import img_2 from "@assets/img/gallery/NIVOI_nina_bogdanović_2.jpeg"
 import img_3 from "@assets/img/gallery/NIVOI_nina_bogdanović_3.jpeg"
 import img_4 from "@assets/img/gallery/NIVOI_nina_bogdanović_4.jpeg"
+import img_5 from "@assets/img/gallery/NIVOI_nina_bogdanović_5.jpeg"
 
 export default function Program() {
   return (
@@ -38,6 +39,11 @@ export default function Program() {
   {
     id: 4,
     img: img_4,
+    icon: 'flaticon-eye',
+  },
+  {
+    id: 5,
+    img: img_5,
     icon: 'flaticon-eye',
   }
 ]}/>
